@@ -17,14 +17,9 @@ Darude
 <script type="text/javascript">
 //
 // Description: Randomly change background color every 5 seconds
-//
-// NewcWare 1997
-// Author: Scott Newcomer 3/1997
-// Email: nuke@bright.net
-//
 function setbackground()
 {
-window.setTimeout( "setbackground()", 50); // 5000 milliseconds delay
+window.setTimeout( "setbackground()", 50); // 50 milliseconds delay
 
 var index = Math.round(Math.random() * 9);
 
@@ -56,5 +51,6 @@ document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValu
 <body onload="setbackground();">
 <img src="spiderman.gif"/>
 <audio autoplay loop src="darude.mp3" type="audio/mpeg"></audio>
+<p style="text-align:center"> <a href="index.html"> Home </a> </p>
 </body>
 </html>
