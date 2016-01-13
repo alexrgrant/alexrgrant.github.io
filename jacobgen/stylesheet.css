@@ -1,0 +1,16 @@
+h1  {
+        font-family: cursive;
+        font-size: 4em;
+ 		height: 10%;
+ 		top: 60%;
+  		left: 35%;
+    }
+button	{
+		font-size: 2.5em;	
+  		position: fixed;
+ 		width: 30%;
+ 		height: 10%;
+ 		top: 70%;
+  		left: 35%;
+  
+	}
