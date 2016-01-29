@@ -15,6 +15,15 @@ ul:nth-child(3) {
 	font-size:15px;
 	}
 	
+#header {
+	position: relative;
+	top: -10px;
+	background-color: black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	color:#ffffff;
+	text-align: center;
+	}
 .classname {
 	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
