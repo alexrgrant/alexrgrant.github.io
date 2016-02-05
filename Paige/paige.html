@@ -1,0 +1,64 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+	</style>
+<script type="text/javascript">
+//
+// Description: Randomly change background color every 5 seconds
+function setbackground()
+{
+window.setTimeout( "setbackground()", 50); // 50 milliseconds delay
+
+var index = Math.round(Math.random() * 9);
+
+var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+if(index == 1)
+ColorValue = "FFCCCC"; //peach
+if(index == 2)
+ColorValue = "CCAFFF"; //violet
+if(index == 3)
+ColorValue = "A6BEFF"; //lt blue
+if(index == 4)
+ColorValue = "99FFFF"; //cyan
+if(index == 5)
+ColorValue = "D5CCBB"; //tan
+if(index == 6)
+ColorValue = "99FF99"; //lt green
+if(index == 7)
+ColorValue = "FFFF99"; //lt yellow
+if(index == 8)
+ColorValue = "FFCC99"; //lt orange
+if(index == 9)
+ColorValue = "CCCCCC"; //lt grey
+
+document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+
+}
+</script>
+	<link type="text/css" rel="Stylesheet" href="stylesheet1.css"/>
+		<title>
+		I like booty
+		</title>
+	</head>
+		<body onload="setbackground();">
+		<h1>
+			<strong><marquee behavior="alternate" scrollamount= "15"> What are we going to do?</marquee> </strong>
+		</h1>
+			<ul>
+			you could go to <a href="http://yesitsethan.tk/" class="classname">this</a> awesome website
+			 </ul>
+			 <ul>
+			 you could check the time by clicking this button
+			  <script type="text/javascript" charset="utf-8">
+                     function showdate(){document.getElementById("date-press").innerHTML=Date();}         
+                  </script><div style="text-align:center; margin: 20px auto; width: 500px; background: #f9f9f9; padding: 10px;" id="date-press-button">
+                     <button type="button" style="margin:auto auto" onclick="showdate()">PUSH ME!</button>
+                     <div id="date-press" style="color: #ff3333; text-align: center; font-size: 20px"></div>
+                  </div>
+			 </ul>
+			 <ul>
+			 or you could take a nap by listening to <a href="http://yesitsethan.tk/click%20if%20stressed/clickifstressed.html">this</a>
+			 </ul>
+		</body>
+</html>

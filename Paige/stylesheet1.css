@@ -1,0 +1,17 @@
+h1 {
+	color:red;
+	font-size: 20px;
+	font-family:cursive, calibri;
+	
+	}
+	
+ul {
+	color:green;
+	font-family:lobster, calibri;
+	font-size:10px
+	position:center
+	}
+a {
+	text-decoration: none;
+	color: red;
+	}
