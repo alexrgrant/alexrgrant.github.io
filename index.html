@@ -6,6 +6,19 @@
 	Welcome 
 	</title>
 	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<!-- JAVASCRIPT to clear search text when the field is clicked -->
+<script type="text/javascript">
+window.onload = function(){ 
+	var submitbutton = document.getElementById("tfq");
+	if(submitbutton.addEventListener){
+		submitbutton.addEventListener("click", function() {
+			if (submitbutton.value == 'Search at own risk'){
+				submitbutton.value = '';
+			}
+		});
+	}
+}
+</script>
 	</head>
 		<body> 
 	</div>
@@ -14,8 +27,8 @@
 		</div>
 				<!-- HTML for SEARCH BAR -->
 	<div id="tfheader">
-		<form id="tfnewsearch" method="get" action="http://www.pornhub.com">
-		        <input id="searchInput" type="text" value="" placeholder="Search..." maxlength="100" name="search" data-searchrnd="1456348367" data-searchhash="4084af2a7d5db1ba03bb6b3f300694a6" data-orientation="straight" class="ui-autocomplete-input" autocomplete="off">
+		<form id="tfnewsearch" method="get" action="http://www.pornhub.com/video/search?">
+		        <input id="searchInput" type="text" value="" placeholder="Search at own risk" maxlength="100" name="search" data-searchrnd="1456348367" data-searchhash="4084af2a7d5db1ba03bb6b3f300694a6" data-orientation="straight" class="ui-autocomplete-input" autocomplete="on">
 		</form>
 		<div class="tfclear"></div>
 		<nav>
